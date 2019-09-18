@@ -1,18 +1,18 @@
 @font-face {
     font-family: "futura-light";
-    src: url("/ui/fonts/futura-thin.woff") format("woff")
+    src: url("./ui/fonts/futura-thin.woff") format("woff")
     }
 @font-face {
     font-family: "futura-thick-01";
-    src: url("/ui/fonts/futura-thick-01.woff") format("woff")
+    src: url("./ui/fonts/futura-thick-01.woff") format("woff")
     }
 @font-face {
     font-family: "futura-thick-02";
-    src: url("/ui/fonts/futura-thick-02.woff") format("woff")
+    src: url("./ui/fonts/futura-thick-02.woff") format("woff")
     }
 @font-face {
     font-family: "futura-thick-03";
-    src: url("/ui/fonts/futura-thick-03.woff") format("woff")
+    src: url("./ui/fonts/futura-thick-03.woff") format("woff")
     }
     
 body {
