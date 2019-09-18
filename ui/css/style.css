@@ -2,14 +2,80 @@
     font-family: "futura-light";
     src: url("/ui/fonts/futura-thin.woff") format("woff")
     }
-
+@font-face {
+    font-family: "futura-thick-01";
+    src: url("/ui/fonts/futura-thick-01.woff") format("woff")
+    }
+@font-face {
+    font-family: "futura-thick-02";
+    src: url("/ui/fonts/futura-thick-02.woff") format("woff")
+    }
+@font-face {
+    font-family: "futura-thick-03";
+    src: url("/ui/fonts/futura-thick-03.woff") format("woff")
+    }
+    
 body {
     font-family: 'futura-light';
+    padding:2px;
 }
 .container{
+}
+.no-pad{
+    padding:0px;
+}
+.pad-20{
+    padding:20px;
+}
+.no-marg{
+    margin:0px;
 }
 .jumbotron{
     background-color: white;
     border:1px solid black;
-    margin:2px;
+}
+.border{
+    border:1px solid black!important;
+}
+.border-top{
+    border-top:1px solid black!important;
+}
+button{
+    margin:5px;
+    border-radius: 0!important;
+    border:1px solid black!important;
+}
+.futura-light{
+    font-family: 'futura-light';
+}
+.futura-01{
+    font-family: 'futura-thick-01';
+}
+.futura-02{
+    font-family: 'futura-thick-02';
+}
+.futura-03{
+    font-family: 'futura-thick-03';
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open{
+    color: #fff;
+    background-color:rgb(52, 52, 52);;
+}
+.btn-dark{
+    background-color:black;
+}
+.btn-dark:hover{
+    background-color:rgb(52, 52, 52);
+
+}
+.font-sizing{
+    /* font-size: 0.5rem; */
+    line-height: 15px;
+}
+.pad-bottom-5{
+    padding-bottom: 5px;;
+
+}
+.margin-top-10{
+    margin-top:10px;
 }
