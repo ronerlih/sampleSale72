@@ -45,9 +45,13 @@ body {
     border-top:1px solid black!important;
 }
 button{
-    margin:5px;
     border-radius: 0!important;
     border:1px solid black!important;
+}
+.btn-margin{
+    margin-top:5px;
+    margin-left:5px;
+
 }
 .futura-light{
     font-family: 'futura-light';
