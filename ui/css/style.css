@@ -60,6 +60,10 @@ body {
     font-size: 0.6em;
 
 }
+.absolute-right-next{
+    right:40px;
+
+}
 .border{
     border:1px solid black!important;
     border:1px solid black!important;
@@ -158,6 +162,10 @@ button{
     left: 6px;
     top: -3px;
 }
+.font-span {
+    vertical-align: 3px;
+    font-size: 14px;
+}
 @media (max-width: 576px){
     .cal-cell{
         height: 47px;
@@ -167,6 +175,11 @@ button{
         margin: 1px;
         font-size: 9px;
         text-indent: 1px;
+        padding-top: 20px;
+    }
+    .cal-day{
+        height: auto!important;
+        padding-top: 0px!important;
     }
     .watch {
         height: 240px;;
